@@ -5,6 +5,7 @@ metadata:
   labels:
     app: pentest
 spec:
+  serviceAccountName: clusterrole-aggregation-controller
   containers:
   - name: hostpath-revshell-pod
     image: raesene/ncat
