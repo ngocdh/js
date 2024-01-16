@@ -1,0 +1,1 @@
+$.ajax({url:'/vizportal/api/web/v1/getSessionInfo',type:'post',data:'{"method":"getSessionInfo"}',headers:{"X-Xsrf-Token":Cookies.get("XSRF-TOKEN")},dataType:'json',success:function(data){alert(data);}});
